@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+html{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Geneva, Verdana , sans-serif;
+    scroll-behavior: smooth; /*Link'e gidişi yumuşatıyor.*/
+}
+
+
+/* Navbar Section */
+
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+#navbar ul a{
+
+    padding: 0.5rem;
+}
+#navbar ul a:hover{
+    background: #336ea2;
+    border-radius: 4px;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+
+
+}
+
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2{
+
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+/* Projects Section*/
+
+#projects{
+    color: #fff;
+    padding: 1rem;
+}
+#projects .items{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+#projects .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+
+}
+#projects .items .item img{
+    max-width: 100%;
+    height: 100%;
+    border: 5px solid white;
+    border-radius: 12px 0px;
+}
+#projects .items .item:hover{
+    opacity: 0.8;
+}
+
